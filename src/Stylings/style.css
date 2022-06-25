@@ -37,6 +37,7 @@ div nav {
 div nav ul {
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 div nav ul li {
   display: inline;
