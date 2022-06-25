@@ -1,9 +1,9 @@
-import Index from "./Header";
 import "./Stylings/style.css";
+import Routing from "./Routing/Routing";
 function App() {
   return (
     <div>
-      <Index />
+      <Routing />
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 
 
 export default function Header() {
@@ -20,12 +20,23 @@ export default function Header() {
                     <h1>Learning SCSS</h1>
                     <nav>
                         <ul>
-
+                            <li>
+                                <Link to="/">Header</Link>
+                            </li>
+                            <li>
+                                <Link to="/About">About</Link>
+                            </li>
+                            <li>
+                                <Link to="/SignUp">SignUp</Link>
+                            </li>
+                            <li>
+                                <Link to="/Login">Login</Link>
+                            </li>
                         </ul>
                     </nav>
+                    <Outlet />
                 </main>
             </header>
-
         </div>
     )
 }
