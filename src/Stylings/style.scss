@@ -1,14 +1,24 @@
 $lightColor: #00b4d8;
+$myHeadingFont: sans;
+$primaryColor: pink;
+$divHeight: 40px;
 body {
   background-color: red;
   //   color: $lightColor;
 }
 .div {
-  height: 50px;
+  height: $divHeight;
   border: 1px solid $lightColor;
-  padding: 50px;
+  padding: $divHeight;
   h2 {
     color: #ffbe0b;
-    bg-color: $lightColor;
+    background-color: $lightColor;
   }
+  h3 {
+    color: $primaryColor;
+  }
+}
+h1,
+h2 {
+  color: $lightColor;
 }

@@ -3,11 +3,19 @@ body {
 }
 
 .div {
-  height: 50px;
+  height: 40px;
   border: 1px solid #00b4d8;
-  padding: 50px;
+  padding: 40px;
 }
 .div h2 {
   color: #ffbe0b;
-  bg-color: #00b4d8;
+  background-color: #00b4d8;
+}
+.div h3 {
+  color: pink;
+}
+
+h1,
+h2 {
+  color: #00b4d8;
 }/*# sourceMappingURL=style.css.map */
