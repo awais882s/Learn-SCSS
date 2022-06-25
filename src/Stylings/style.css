@@ -1,21 +1,13 @@
-body {
-  background-color: red;
-}
-
 .div {
   height: 40px;
   border: 1px solid #00b4d8;
   padding: 40px;
 }
-.div h2 {
-  color: #ffbe0b;
+.div .h1 {
+  color: rgb(94, 255, 0);
   background-color: #00b4d8;
 }
-.div h3 {
-  color: pink;
-}
-
-h1,
-h2 {
-  color: #00b4d8;
+.div h3,
+.div h4 {
+  color: rgb(94, 255, 0);
 }/*# sourceMappingURL=style.css.map */

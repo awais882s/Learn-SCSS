@@ -1,24 +1,22 @@
 $lightColor: #00b4d8;
 $myHeadingFont: sans;
-$primaryColor: pink;
+$primaryColor: red;
 $divHeight: 40px;
 body {
-  background-color: red;
+  //   background-color: red;
   //   color: $lightColor;
 }
 .div {
   height: $divHeight;
   border: 1px solid $lightColor;
   padding: $divHeight;
-  h2 {
-    color: #ffbe0b;
+  .h1 {
+      $primaryColor: rgb(94, 255, 0) !global; 
+    color: $primaryColor;
     background-color: $lightColor;
   }
-  h3 {
+  h3,
+  h4 {
     color: $primaryColor;
   }
-}
-h1,
-h2 {
-  color: $lightColor;
 }
