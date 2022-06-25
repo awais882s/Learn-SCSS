@@ -1,8 +1,9 @@
 import Index from "./Header";
+import "./Stylings/style.css";
 function App() {
   return (
     <div>
-     <Index/>
+      <Index />
     </div>
   );
 }
