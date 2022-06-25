@@ -1,3 +1,9 @@
+body {
+  padding: 0px;
+  box-sizing: border-box;
+  margin: 0px;
+}
+
 .div {
   height: 40px;
   border: 1px solid #00b4d8;
@@ -26,7 +32,7 @@ header main nav ul li {
 }
 
 div nav {
-  background-color: skyblue;
+  background-color: #1d3557;
 }
 div nav ul {
   display: flex;
@@ -36,9 +42,10 @@ div nav ul li {
   display: inline;
   margin: 10px;
   justify-content: center;
+  padding: 24px;
 }
 div nav ul li .Link {
-  color: chartreuse;
+  color: #00b4d8;
   list-style: none;
   text-decoration: none;
 }/*# sourceMappingURL=style.css.map */

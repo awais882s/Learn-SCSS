@@ -5,6 +5,9 @@ $divHeight: 40px;
 body {
   //   background-color: red;
   //   color: $lightColor;
+  padding: 0px;
+  box-sizing: border-box;
+  margin: 0px;
 }
 .div {
   height: $divHeight;
@@ -42,7 +45,7 @@ header {
 // for navbar
 div {
   nav {
-    background-color: skyblue;
+    background-color: $primaryColor;
     ul {
       display: flex;
       justify-content: center;
@@ -50,13 +53,14 @@ div {
         display: inline;
         margin: 10px;
         justify-content: center;
-        .Link{
-          color: chartreuse; 
+        padding: 24px;
+
+        .Link {
+          color: $lightColor;
           list-style: none;
           text-decoration: none;
-        } 
+        }
       }
-    
     }
   }
 }
