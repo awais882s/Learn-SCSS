@@ -5,7 +5,6 @@ $divHeight: 40px;
 body {
   //   background-color: red;
   //   color: $lightColor;
-  text-align: center;
 }
 .div {
   height: $divHeight;
@@ -26,6 +25,17 @@ header {
   main {
     h1 {
       color: $primaryColor;
+      text-align: center;
+    }
+    nav {
+      ul {
+        display: flex;
+        li {
+          display: flex;
+          justify-content: space-around;
+          margin-left: 1rem;
+        }
+      }
     }
   }
 }

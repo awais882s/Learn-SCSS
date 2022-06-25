@@ -1,5 +1,5 @@
 import Header from './Header'
-export default function index() {
+export default function Index() {
   return (
     <div>
     <Header/>
