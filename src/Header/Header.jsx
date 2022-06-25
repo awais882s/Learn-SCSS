@@ -1,8 +1,6 @@
 import React from 'react';
-// import about from '../About/about';
-// import contact from '../Contact/contact';
-// import signUp from '../signUp/signUp';
-// import login from '../login/login';
+import { Link } from 'react-router-dom';
+
 
 export default function Header() {
     return (
@@ -22,19 +20,7 @@ export default function Header() {
                     <h1>Learning SCSS</h1>
                     <nav>
                         <ul>
-                            
-                            <li>
-                                <a to="/about">About</a>
-                            </li>
-                            <li>
-                                <a to="/signUp">Sign</a>
-                            </li>
-                            <li>
-                                <a to="/login">Login</a>
-                            </li>
-                            <li>
-                                <a to="/contact">Contact</a>
-                            </li>
+
                         </ul>
                     </nav>
                 </main>
