@@ -1,3 +1,7 @@
+body {
+  text-align: center;
+}
+
 .div {
   height: 40px;
   border: 1px solid #00b4d8;
@@ -9,5 +13,9 @@
 }
 .div h3,
 .div h4 {
-  color: rgb(94, 255, 0);
+  color: #1d3557;
+}
+
+header main h1 {
+  color: #1d3557;
 }/*# sourceMappingURL=style.css.map */
