@@ -5,7 +5,6 @@ import About from '../About/About';
 import SignUp from '../signUp/SignUp';
 import Login from '../login/Login';
 import Index from '../Header';
-
 export default function Routing() {
     return (
         <div>
