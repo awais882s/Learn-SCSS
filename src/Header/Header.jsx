@@ -1,7 +1,4 @@
 import React from 'react';
-import { Link, Outlet } from 'react-router-dom';
-
-
 export default function Header() {
     return (
         <div>
@@ -18,23 +15,6 @@ export default function Header() {
             <header>
                 <main>
                     <h1>Learning SCSS</h1>
-                    <nav>
-                        <ul>
-                            <li>
-                                <Link to="/">Header</Link>
-                            </li>
-                            <li>
-                                <Link to="/About">About</Link>
-                            </li>
-                            <li>
-                                <Link to="/SignUp">SignUp</Link>
-                            </li>
-                            <li>
-                                <Link to="/Login">Login</Link>
-                            </li>
-                        </ul>
-                    </nav>
-                    <Outlet />
                 </main>
             </header>
         </div>
