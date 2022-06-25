@@ -23,4 +23,14 @@ header main nav ul li {
   display: flex;
   justify-content: space-around;
   margin-left: 1rem;
+}
+
+div nav ul {
+  display: flex;
+  justify-content: center;
+}
+div nav ul li {
+  display: inline;
+  margin: 10px;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
