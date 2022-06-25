@@ -7,16 +7,16 @@ export default function NavBar() {
             <nav>
                 <ul>
                     <li>
-                        <Link to="/">Header</Link>
+                        <Link className="Link" to="/">Header</Link>
                     </li>
                     <li>
-                        <Link to="/About">About</Link>
+                        <Link className="Link" to="/About">About</Link>
                     </li>
                     <li>
-                        <Link to="/SignUp">SignUp</Link>
+                        <Link className="Link" to="/SignUp">SignUp</Link>
                     </li>
                     <li>
-                        <Link to="/Login">Login</Link>
+                        <Link className="Link" to="/Login">Login</Link>
                     </li>
                 </ul>
             </nav>
