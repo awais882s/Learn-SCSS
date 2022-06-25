@@ -1,11 +1,14 @@
+$lightColor: #00b4d8;
 body {
   background-color: red;
-//   color: #00b4d8;
+  //   color: $lightColor;
 }
 .div {
   height: 50px;
-  border: 1px solid #00b4d8;
-  .h1{
+  border: 1px solid $lightColor;
+  padding: 50px;
+  h2 {
     color: #ffbe0b;
+    bg-color: $lightColor;
   }
 }

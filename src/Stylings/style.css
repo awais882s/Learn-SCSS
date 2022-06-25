@@ -5,7 +5,9 @@ body {
 .div {
   height: 50px;
   border: 1px solid #00b4d8;
+  padding: 50px;
 }
-.div .h1 {
+.div h2 {
   color: #ffbe0b;
+  bg-color: #00b4d8;
 }/*# sourceMappingURL=style.css.map */
