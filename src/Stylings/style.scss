@@ -11,6 +11,10 @@ $FooterHeight: 40px;
   padding: 8px 16px;
   margin: 5px;
 }
+// @ mixin use
+@mixin boder($width, $style, $color) {
+  border: $width $style $color;
+}
 
 .div {
   height: $divHeight;
@@ -49,6 +53,8 @@ header {
 div {
   nav {
     background-color: $primaryColor;
+    @include boder(1px, solid, yellow);
+
     ul {
       display: flex;
       justify-content: center;

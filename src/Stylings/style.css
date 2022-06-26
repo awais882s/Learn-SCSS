@@ -46,6 +46,7 @@ header main nav ul li {
 
 div nav {
   background-color: #1d3557;
+  border: 1px solid yellow;
 }
 div nav ul {
   display: flex;
