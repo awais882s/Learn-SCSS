@@ -4,7 +4,6 @@ export default function Header() {
         <>
             <header >
                 <main>
-
                     <h1>Learning SCSS</h1>
                     <button>Login</button>
                     <button className='btn-danger'>Danger</button>

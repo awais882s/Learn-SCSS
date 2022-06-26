@@ -33,6 +33,9 @@ $FooterHeight: 40px;
 
 header {
   main {
+    @include boder(2px,dashed, red);
+    min-height: 100vh;
+
     h1 {
       color: $primaryColor;
       text-align: center;
@@ -50,7 +53,7 @@ header {
   }
 }
 // for navbar
-div {
+header {
   nav {
     background-color: $primaryColor;
     @include boder(1px, solid, yellow);
@@ -78,6 +81,7 @@ div {
 header {
   main {
     text-align: center;
+
     button {
       @include custom-btn();
       outline: none;
@@ -96,8 +100,6 @@ header {
   min-height: 100vh;
   main {
     flex: 1 0 auto;
-    // @include boder(5px, dotted, red); 
-
   }
 }
 footer {

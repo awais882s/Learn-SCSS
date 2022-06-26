@@ -31,6 +31,10 @@ h6 {
   color: #1d3557;
 }
 
+header main {
+  border: 2px dashed red;
+  min-height: 100vh;
+}
 header main h1 {
   color: #1d3557;
   text-align: center;
@@ -44,22 +48,22 @@ header main nav ul li {
   margin-left: 1rem;
 }
 
-div nav {
+header nav {
   background-color: #1d3557;
   border: 1px solid yellow;
 }
-div nav ul {
+header nav ul {
   display: flex;
   justify-content: center;
   text-align: center;
 }
-div nav ul li {
+header nav ul li {
   display: inline;
   margin: 10px;
   justify-content: center;
   padding: 24px;
 }
-div nav ul li .Link {
+header nav ul li .Link {
   color: #00b4d8;
   list-style: none;
   text-decoration: none;

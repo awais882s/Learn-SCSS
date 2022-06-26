@@ -10,7 +10,6 @@ export default function Routing() {
     return (
         <BrowserRouter>
             <NavBar />
-            
             <main>
                 <Routes>
                     <Route index element={<Index />} />
