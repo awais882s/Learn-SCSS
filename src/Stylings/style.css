@@ -19,12 +19,12 @@ h6 {
 
 .div {
   height: 40px;
-  border: 1px solid #EDADC7;
+  border: 1px solid #edadc7;
   padding: 40px;
 }
 .div .h1 {
   color: rgb(94, 255, 0);
-  background-color: #EDADC7;
+  background-color: #edadc7;
 }
 .div h3,
 .div h4 {
@@ -59,7 +59,7 @@ header nav ul li {
   padding: 24px;
 }
 header nav ul li .Link {
-  color: #EDADC7;
+  color: #edadc7;
   list-style: none;
   text-decoration: none;
 }
@@ -68,7 +68,7 @@ header main {
   text-align: center;
 }
 header main button {
-  color: #EDADC7;
+  color: #edadc7;
   background-color: #7209b7;
   display: inline-block;
   padding: 8px 16px;
@@ -77,7 +77,7 @@ header main button {
   border: 0;
 }
 header main .btn-danger {
-  color: #EDADC7;
+  color: #edadc7;
   background-color: #7209b7;
   display: inline-block;
   padding: 8px 16px;
@@ -105,7 +105,7 @@ footer p {
 }
 footer p,
 footer a {
-  color: #EDADC7;
+  color: #edadc7;
   text-align: center;
   line-height: 40px;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
