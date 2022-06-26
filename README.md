@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
-## Learn SCSS / SASS By Sir Umair Ahmad
+## Learn SCSS / SASS By Sir Umair Ahmad 25-JUNE_2022
 
 In the project directory, you can run:
 
