@@ -4,6 +4,5 @@ export default function Footer() {
         <footer>
             <p>&copy; 2020 <a href="https://umairahmad.net">www.umairahmad.net</a>.All right Reserved </p>
         </footer>
-
     )
 }
