@@ -81,4 +81,15 @@ header main .btn-danger {
   padding: 8px 16px;
   margin: 5px;
   background-color: red;
+}
+
+footer {
+  background-color: #1d3557;
+  height: 30px;
+}
+footer p,
+footer a {
+  color: #00b4d8;
+  text-align: center;
+  line-height: 30px;
 }/*# sourceMappingURL=style.css.map */
