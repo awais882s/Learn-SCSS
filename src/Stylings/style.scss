@@ -14,6 +14,7 @@ $FooterHeight: 40px;
 // @ mixin use
 @mixin boder($width, $style, $color) {
   border: $width $style $color;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .div {
@@ -33,8 +34,8 @@ $FooterHeight: 40px;
 
 header {
   main {
-    @include boder(2px,dashed, red);
-    min-height: 100vh;
+    // @include boder(2px, dashed, red);
+    // min-height: 100vh;
 
     h1 {
       color: $primaryColor;
@@ -56,7 +57,7 @@ header {
 header {
   nav {
     background-color: $primaryColor;
-    @include boder(1px, solid, yellow);
+    // @include boder(1px, solid, yellow);
 
     ul {
       display: flex;
@@ -89,6 +90,8 @@ header {
     }
     .btn-danger {
       @include custom-btn();
+      @include boder(5px, solid, black);
+
       background-color: $dangerColors;
     }
   }
@@ -103,7 +106,7 @@ header {
   }
 }
 footer {
-  @include boder(5px, dashed, red);
+  // @include boder(5px, dashed, red);
 
   background-color: $primaryColor;
   height: $FooterHeight;

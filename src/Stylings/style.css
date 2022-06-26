@@ -19,24 +19,20 @@ h6 {
 
 .div {
   height: 40px;
-  border: 1px solid #00b4d8;
+  border: 1px solid #EDADC7;
   padding: 40px;
 }
 .div .h1 {
   color: rgb(94, 255, 0);
-  background-color: #00b4d8;
+  background-color: #EDADC7;
 }
 .div h3,
 .div h4 {
-  color: #1d3557;
+  color: #7209b7;
 }
 
-header main {
-  border: 2px dashed red;
-  min-height: 100vh;
-}
 header main h1 {
-  color: #1d3557;
+  color: #7209b7;
   text-align: center;
 }
 header main nav ul {
@@ -49,8 +45,7 @@ header main nav ul li {
 }
 
 header nav {
-  background-color: #1d3557;
-  border: 1px solid yellow;
+  background-color: #7209b7;
 }
 header nav ul {
   display: flex;
@@ -64,7 +59,7 @@ header nav ul li {
   padding: 24px;
 }
 header nav ul li .Link {
-  color: #00b4d8;
+  color: #EDADC7;
   list-style: none;
   text-decoration: none;
 }
@@ -73,8 +68,8 @@ header main {
   text-align: center;
 }
 header main button {
-  color: #00b4d8;
-  background-color: #1d3557;
+  color: #EDADC7;
+  background-color: #7209b7;
   display: inline-block;
   padding: 8px 16px;
   margin: 5px;
@@ -82,11 +77,13 @@ header main button {
   border: 0;
 }
 header main .btn-danger {
-  color: #00b4d8;
-  background-color: #1d3557;
+  color: #EDADC7;
+  background-color: #7209b7;
   display: inline-block;
   padding: 8px 16px;
   margin: 5px;
+  border: 5px solid black;
+  font-family: "Courier New", Courier, monospace;
   background-color: red;
 }
 
@@ -100,8 +97,7 @@ header main .btn-danger {
 }
 
 footer {
-  border: 5px dashed red;
-  background-color: #1d3557;
+  background-color: #7209b7;
   height: 40px;
 }
 footer p {
@@ -109,7 +105,7 @@ footer p {
 }
 footer p,
 footer a {
-  color: #00b4d8;
+  color: #EDADC7;
   text-align: center;
   line-height: 40px;
 }/*# sourceMappingURL=style.css.map */
