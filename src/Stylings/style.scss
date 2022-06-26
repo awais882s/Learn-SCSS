@@ -90,12 +90,14 @@ header {
   min-height: 100vh;
   main {
     flex: 1 0 auto;
-  } 
+  }
 }
 footer {
-  // align-items: end;
   background-color: $primaryColor;
   height: $FooterHeight;
+  p {
+    margin: 0;
+  }
   p,
   a {
     color: $lightColor;

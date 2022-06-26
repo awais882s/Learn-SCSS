@@ -14,9 +14,9 @@ export default function Routing() {
                 <main>
                     <Routes>
                         <Route index element={<Index />} />
-                        <Route path="About" element={<About />} />
-                        <Route path="SignUp" element={<SignUp />} />
-                        <Route path="Login" element={<Login />} />
+                        <Route path="about" element={<About />} />
+                        <Route path="signUp" element={<SignUp />} />
+                        <Route path="login" element={<Login />} />
                     </Routes>
                 </main>
                 <Footer />

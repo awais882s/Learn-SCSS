@@ -9,13 +9,13 @@ export default function NavBar() {
                         <Link className="Link" to="/">Header</Link>
                     </li>
                     <li>
-                        <Link className="Link" to="/About">About</Link>
+                        <Link className="Link" to="/about">About</Link>
                     </li>
                     <li>
-                        <Link className="Link" to="/SignUp">SignUp</Link>
+                        <Link className="Link" to="/signUp">SignUp</Link>
                     </li>
                     <li>
-                        <Link className="Link" to="/Login">Login</Link>
+                        <Link className="Link" to="/login">Login</Link>
                     </li>
                 </ul>
             </nav>

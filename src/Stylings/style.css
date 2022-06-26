@@ -98,6 +98,9 @@ footer {
   background-color: #1d3557;
   height: 40px;
 }
+footer p {
+  margin: 0;
+}
 footer p,
 footer a {
   color: #00b4d8;
