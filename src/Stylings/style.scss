@@ -2,6 +2,7 @@
 @import "reset";
 $myHeadingFont: sans;
 $divHeight: 40px;
+$FooterHeight: 40px;
 
 @mixin custom-btn {
   color: $lightColor;
@@ -82,8 +83,17 @@ header {
     }
   }
 }
-$FooterHeight: 30px;
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  main {
+    flex: 1 0 auto;
+  } 
+}
 footer {
+  // align-items: end;
   background-color: $primaryColor;
   height: $FooterHeight;
   p,

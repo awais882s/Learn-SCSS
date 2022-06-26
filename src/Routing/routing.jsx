@@ -5,19 +5,22 @@ import About from '../About/About';
 import SignUp from '../signUp/SignUp';
 import Login from '../login/Login';
 import Index from '../Header';
+import Footer from '../Footer';
 export default function Routing() {
     return (
-        <div>
+        <div id='root'>
             <BrowserRouter>
                 <NavBar />
-                <Routes>
-                    <Route index element={<Index />} />
-                    <Route path="About" element={<About />} />
-                    <Route path="SignUp" element={<SignUp />} />
-                    <Route path="Login" element={<Login />} />
-                    <Route />
-                </Routes>
+                <main>
+                    <Routes>
+                        <Route index element={<Index />} />
+                        <Route path="About" element={<About />} />
+                        <Route path="SignUp" element={<SignUp />} />
+                        <Route path="Login" element={<Login />} />
+                    </Routes>
+                </main>
+                <Footer />
             </BrowserRouter>
-        </div>
+        </div >
     )
 }
