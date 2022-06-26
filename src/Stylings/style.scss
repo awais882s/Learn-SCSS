@@ -96,9 +96,13 @@ header {
   min-height: 100vh;
   main {
     flex: 1 0 auto;
+    @include boder(5px, dotted, red);
+
   }
 }
 footer {
+  @include boder(5px, dashed, red);
+
   background-color: $primaryColor;
   height: $FooterHeight;
   p {

@@ -93,9 +93,11 @@ header main .btn-danger {
 }
 #root main {
   flex: 1 0 auto;
+  border: 5px dotted red;
 }
 
 footer {
+  border: 5px dashed red;
   background-color: #1d3557;
   height: 40px;
 }
