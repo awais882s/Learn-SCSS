@@ -1,7 +1,14 @@
 @import "colors";
-@import "reset" ;
+@import "reset";
 $myHeadingFont: sans;
 $divHeight: 40px;
+
+@mixin custom-btn {
+  color: $lightColor;
+  background-color: $primaryColor;
+  display: inline-block;
+  padding: 8px 16px;
+}
 
 .div {
   height: $divHeight;
@@ -55,6 +62,19 @@ div {
           text-decoration: none;
         }
       }
+    }
+  }
+}
+
+// button login
+header {
+  main {
+    text-align: center;
+    button {
+      @include custom-btn();
+      outline: none;
+      border: 0;
+      
     }
   }
 }

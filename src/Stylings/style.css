@@ -60,4 +60,16 @@ div nav ul li .Link {
   color: #00b4d8;
   list-style: none;
   text-decoration: none;
+}
+
+header main {
+  text-align: center;
+}
+header main button {
+  color: #00b4d8;
+  background-color: #1d3557;
+  display: inline-block;
+  padding: 8px 16px;
+  outline: none;
+  border: 0;
 }/*# sourceMappingURL=style.css.map */

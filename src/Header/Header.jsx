@@ -15,6 +15,8 @@ export default function Header() {
             <header>
                 <main>
                     <h1>Learning SCSS</h1>
+                    <button>Login</button>
+                    
                 </main>
             </header>
         </div>
