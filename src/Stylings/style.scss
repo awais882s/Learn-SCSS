@@ -8,6 +8,7 @@ $divHeight: 40px;
   background-color: $primaryColor;
   display: inline-block;
   padding: 8px 16px;
+  margin: 5px;
 }
 
 .div {
@@ -74,7 +75,10 @@ header {
       @include custom-btn();
       outline: none;
       border: 0;
-      
+    }
+    .btn-danger {
+      @include custom-btn();
+      background-color: $dangerColors;
     }
   }
 }
